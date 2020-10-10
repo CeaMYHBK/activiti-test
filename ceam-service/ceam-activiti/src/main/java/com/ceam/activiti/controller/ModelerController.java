@@ -23,7 +23,7 @@ import java.io.UnsupportedEncodingException;
 
 /**
  * @author CeaM
- * @Description
+ * @Description 模型管理
  * @date 2020/10/10 10:03
  */
 @Controller
@@ -120,27 +120,44 @@ public class ModelerController extends BaseController {
         return R.ok();
     }
 
+    /**
+     * 根据id获取模型
+     * @param id
+     * @return
+     */
     @GetMapping("get/{id}")
     public R getModelById(@PathVariable("id") String id)
     {
+        System.out.println("get/{id}===" + id);
         Model model = repositoryService.createModelQuery().modelId(id).singleResult();
         return R.data(model);
     }
 
+    /**
+     * 获取模型列表
+     * @param actReModel
+     * @return
+     */
     @GetMapping("list")
     @ResponseBody
     public R getList(ActReModel actReModel)
     {
         startPage();
-        PageHelper.orderBy("create_time_ desc");
+        PageHelper.orderBy("create_time_ desc");  //注意空格，否则报错
         System.out.println("list lalalalala");
         return result(modelService.selectActReModelList(actReModel));
     }
 
+    /**
+     * 删除模型
+     * @param ids
+     * @return
+     */
     @PostMapping("remove")
     @ResponseBody
     public R delete(String ids)
     {
+        System.out.println("remove ids===" + ids);//10001、2501、15001
         String[] idsArr = ids.split(",");
         for (String id : idsArr) {
             repositoryService.deleteModel(id);
