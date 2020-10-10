@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6174c41-cae4-4ad6-b032-5aac0437c04f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-auth/src/main/java/com/ceam/common/auth/annotation/HasPermissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-auth/src/main/java/com/ceam/common/auth/aspect/PreAuthorizeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-auth/target/classes/com/ceam/common/auth/annotation/HasPermissions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-auth/target/classes/com/ceam/common/auth/aspect/PreAuthorizeAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/annotation/DataScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/annotation/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/annotation/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/config/thread/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/PermissionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/ScheduleConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/ServiceNameConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/ShiroConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/dao/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/domain/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/domain/Ztree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/page/PageDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/page/TableDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/page/TableSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/text/CharsetKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/text/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/core/text/StrFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/enums/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/enums/OnlineStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/CeaMException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/GlobalErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/ValidateCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/base/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/file/FileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/file/InvalidExtensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/file/OssException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/job/TaskException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/CaptchaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/RoleBlockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserBlockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserDeleteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserNotExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserPasswordRetryLimitCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/json/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/AddressUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/Arith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/MapDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/ToolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/YamlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/bean/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/file/FileUploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/file/MimeTypeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/http/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/poi/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/reflect/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/security/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/security/PermissionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/spring/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/sql/SqlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/annotation/DataScope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/annotation/Excel$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/annotation/Excel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/annotation/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/config/ServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/config/thread/ThreadPoolConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/config/thread/ThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/PermissionConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/ScheduleConstants$Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/ScheduleConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/ServiceNameConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/ShiroConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/constant/UserConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/controller/BaseController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/dao/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/domain/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/domain/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/domain/Ztree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/page/PageDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/page/TableDataInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/page/TableSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/text/CharsetKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/text/Convert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/core/text/StrFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/datasource/DynamicDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/datasource/DynamicDataSourceContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/enums/DataSourceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/enums/OnlineStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/enums/UserStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/CeaMException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/ForbiddenException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/GlobalErrorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/UnauthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/ValidateCodeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/base/BaseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/FileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/FileNameLengthLimitExceededException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/FileSizeLimitExceededException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/InvalidExtensionException$InvalidFlashExtensionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/InvalidExtensionException$InvalidImageExtensionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/InvalidExtensionException$InvalidMediaExtensionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/InvalidExtensionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/file/OssException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/job/TaskException$Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/job/TaskException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/CaptchaException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/RoleBlockedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserBlockedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserDeleteException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserNotExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserPasswordNotMatchException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserPasswordRetryLimitCountException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/exception/user/UserPasswordRetryLimitExceedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSON.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject$EndArrayCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject$JSONArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/json/JSONObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/AddressUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/Arith.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/ExceptionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/IpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/MapDataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/MessageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/ServletUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/Threads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/ToolUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/ValidatorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/YamlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/bean/BeanUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/file/FileUploadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/file/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/file/MimeTypeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/http/HttpUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/http/HttpUtils$TrustAnyHostnameVerifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/http/HttpUtils$TrustAnyTrustManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/http/HttpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/poi/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/reflect/ReflectUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/security/Md5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/security/PermissionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/spring/SpringContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/spring/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/utils/sql/SqlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/xss/XssFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-core/target/classes/com/ceam/common/xss/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/LogAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/annotation/OperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/aspect/OperLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/enums/BusinessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/enums/BusinessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/enums/OperatorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/event/SysLogininforEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/event/SysOperLogEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/listen/LogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/publish/PublishFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/LogAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/annotation/OperLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/aspect/OperLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/enums/BusinessStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/enums/BusinessType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/enums/OperatorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/event/SysLogininforEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/event/SysOperLogEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/listen/LogListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-log/target/classes/com/ceam/common/log/publish/PublishFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/annotation/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/annotation/RedisEvict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/aspect/RedisAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/config/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/annotation/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/annotation/RedisEvict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/aspect/RedisAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/config/FastJsonRedisSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-redis/target/classes/com/ceam/common/redis/util/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-swagger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-swagger/src/main/java/com/ceam/common/swagger/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/common-swagger/target/classes/com/ceam/common/swagger/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/java/com/ceam/config/ConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-auth-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-auth-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-dfs-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-dfs-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-gateway-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-gateway-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-gen-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-gen-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-monitor-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-system-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/src/main/resources/config/ceam-system-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/com/ceam/config/ConfigApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-auth-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-auth-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-dfs-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-dfs-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-gateway-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-gateway-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-gen-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-gen-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-monitor-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-system-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-config/target/classes/config/ceam-system-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/java/com/ceam/eureka/EurekaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/application-7002.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/application-7003.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/application-7002.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/application-7003.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-eureka/target/classes/com/ceam/eureka/EurekaApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/GatewayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/CaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/KaptchaTextCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/RateLimiterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/RouterFunctionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/SwaggerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/fiflt/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/fiflt/CacheRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/fiflt/ImgCodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/handler/HystrixFallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/handler/ImgCodeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/handler/SwaggerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/GatewayApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/config/CaptchaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/config/KaptchaTextCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/config/RateLimiterConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/config/RouterFunctionConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/config/SwaggerProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/CacheRequestFilter$CacheRequestGatewayFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/CacheRequestFilter$CacheRequestGatewayFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/CacheRequestFilter$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/CacheRequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/ImgCodeFilter$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/fiflt/ImgCodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/handler/HystrixFallbackHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/handler/ImgCodeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-gateway/target/classes/com/ceam/gateway/handler/SwaggerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/annotation/EnableCeaMFeignClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/Districts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/Donate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysDictData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysDictType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysLogininfor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysOss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysUserOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysUserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/domain/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteDeptFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteLogFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteMenuFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteRoleFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteUserFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/META-INF/ceam-system-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/annotation/EnableCeaMFeignClients.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/Districts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/Donate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysDictData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysDictType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysLogininfor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysOperLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysOss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysRoleDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysUserOnline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysUserPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/domain/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/RemoteDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/RemoteLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/RemoteMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/RemoteRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/RemoteUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteDeptFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteDeptFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteLogFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteLogFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteMenuFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteMenuFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteRoleFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteRoleFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteUserFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/feign/factory/RemoteUserFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/classes/com/ceam/system/util/PasswordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/ActivitiApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/stencilset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/ActivitiApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/config/ActivitiConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/config/ActivitiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/config/MyIdGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/consts/ActivitiConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ActTaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ActivitiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/BizBusinessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/BizLeaveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/BizNodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/BizPurchaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/BorrowController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ModelerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ProcessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ProcessInsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/cover/CustomProcessDiagramCanvas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/cover/CustomProcessDiagramGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/cover/ICustomProcessDiagramGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/ActReModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/ActReProcdef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/ActRuTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizAudit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizBorrow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizBusiness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizLeave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/domain/BizPurchase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/form/AuditForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/listener/MyProcessExecutionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/listener/MyTaskCompletedListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/ActReModelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/ActReProcdefMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/ActRuTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizAuditMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizBorrowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizBusinessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizLeaveMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizNodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/BizPurchaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/mapper/HistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/FilterServletOutputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/GenericResponseWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/JsonpCallbackFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/diagram/services/BaseProcessDefinitionDiagramLayoutResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/diagram/services/ProcessDefinitionDiagramLayoutResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceDiagramLayoutResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceHighlightsResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/editor/main/StencilsetRestResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/editor/model/ModelEditorJsonRestResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/modeler/rest/editor/model/ModelSaveRestResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IActReModelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IActReProcdefService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizAuditService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizBorrowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizBusinessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizLeaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizNodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IBizPurchaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/IHistoryInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/ActReModelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/ActReProcdefServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizAuditServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizBorrowServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizBusinessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizLeaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizNodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/BizPurchaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/service/impl/HistoryInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/HiProcInsVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/HiTaskVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/ProcessInsVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/ProcessNodeVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/ReProcdef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/vo/RuTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/mapper/activiti/ActReModelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/mapper/activiti/ActRuTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/mapper/activiti/BizAuditMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/mapper/activiti/BizLeaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/mapper/activiti/HistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/breadcrumbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/checker-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/blue/message_catch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/business_rule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/error_catch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/error_throw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/manual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/message_catch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/message_throw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/receive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/script.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/signal_catch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/signal_throw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/images/deployer/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/ActivitiRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/ActivityImpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/Color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/LineBreakMeasurer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/Polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/ProcessDiagramCanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/ProcessDiagramGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/jquery/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/jstools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/raphael.2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/raphael_uncompressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/js/textlayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/diagram-viewer/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/app-cfg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-assignment-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-condition-expression-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-custom-controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-default-controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-event-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-execution-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-fields-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-form-properties-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-in-parameters-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-message-definitions-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-message-scope-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-multiinstance-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-out-parameters-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-sequenceflow-order-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-signal-definitions-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-signal-scope-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties-task-listeners-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/assignment-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/assignment-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/assignment-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/boolean-property-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/condition-expression-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/condition-expression-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/condition-expression-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/default-value-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/event-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/event-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/event-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/execution-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/execution-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/execution-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/feedback-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/fields-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/fields-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/fields-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/form-properties-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/form-properties-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/form-properties-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/in-parameters-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/in-parameters-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/in-parameters-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/message-definitions-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/message-definitions-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/message-definitions-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/message-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/multiinstance-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/out-parameters-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/out-parameters-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/out-parameters-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/sequenceflow-order-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/signal-definitions-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/signal-definitions-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/signal-definitions-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/signal-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/string-property-write-mode-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/subprocess-reference-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/subprocess-reference-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/subprocess-reference-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/task-listeners-display-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/task-listeners-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/task-listeners-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/text-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/properties/text-property-write-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/toolbar-custom-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/toolbar-default-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/configuration/url-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/css/style-common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/css/style-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/css/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/i18n/translation_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/i18n/translation_en_us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/i18n/translation_signavio_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/i18n/translation_signavio_en_us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/oryx.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/editor/oryx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/eventbus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/activiti-admin-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/activiti-admin-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/activiti-admin-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/activiti-admin-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/header-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/i18n/en.json_bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/bpmn-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/bpmn-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/datadefinition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/logo-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/nw-handle-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/se-handle-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/shapemenu_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/images/wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/angular_1.2.13/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/jquery.autogrow-textarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/json3_3.2.6/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/mousetrap-1.4.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/ng-grid-2.0.7-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/ng-grid-2.0.7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/path_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/prototype-1.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/libs/ui-utils.min-0.0.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/partials/root-stencil-item-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/partials/stencil-item-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/popups/icon-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/popups/save-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/popups/select-shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/popups/unsaved-changes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/select-shape-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencil-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/editor-app/toolbar-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/static/modeler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/stencilset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/AuthApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/config/I18nConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/form/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/service/AccessTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/service/CaptchaCacheServiceRedisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/service/SysLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/AuthApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/config/I18nConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/controller/TokenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/form/LoginForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/service/AccessTokenService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/service/CaptchaCacheServiceRedisImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/com/ceam/auth/service/SysLoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-auth/target/classes/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/SystemApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/aspect/DataScopeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/aspect/DataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/config/DruidProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/DonateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SwaggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysDictDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysDictTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysDistrictsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysLogininforController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysNoticeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysOperLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysOssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysPostClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/DistrictsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/DonateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysDictDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysDictTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysLogininforMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysNoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysOperLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysOssMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysRoleDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysUserOnlineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysUserPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/AliyunCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/CloudConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/CloudStorageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/CloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/OSSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/QcloudCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/QiniuCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/valdator/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/valdator/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/oss/valdator/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/resolver/LoginUserHandlerResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/IDistrictsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/IDonateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysDictDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysDictTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysLogininforService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysOperLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysOssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysUserOnlineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/DistrictsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/DonateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysDictDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysDictTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysLogininforServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysOperLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysOssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysUserOnlineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/DistrictsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysLogininforMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysOperLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysUserOnlineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysUserPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/mapper/system/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/SystemApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/aspect/DataScopeAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/aspect/DataSourceAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/config/DruidProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/DonateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SwaggerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysDeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysDictDataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysDictTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysDistrictsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysLogininforController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysNoticeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysOperLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysOssController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysPostClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/controller/SysUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/DistrictsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/DonateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysDeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysDictDataMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysDictTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysLogininforMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysOperLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysOssMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysPostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysRoleDeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysUserOnlineMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysUserPostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/AliyunCloudStorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/CloudConstant$CloudService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/CloudConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/CloudStorageConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/CloudStorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/OSSFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/QcloudCloudStorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/QiniuCloudStorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/valdator/AliyunGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/valdator/QcloudGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/oss/valdator/QiniuGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/resolver/LoginUserHandlerResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/IDistrictsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/IDonateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysDictDataService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysDictTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysLogininforService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysOperLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysOssService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysPostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysUserOnlineService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/DistrictsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/DonateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysDeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysDictDataServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysDictTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysLogininforServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysOperLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysOssServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysPostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysUserOnlineServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/com/ceam/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/DistrictsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysLogininforMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysOperLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysUserOnlineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysUserPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-system/target/classes/mapper/system/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/src/main/java/com/ceam/monitor/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/ceam-monitor/target/classes/com/ceam/monitor/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-tool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/web_debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/web_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/web_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/web_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/common-log/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service/ceam-auth/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/common-redis/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/common-core/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/common-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service/ceam-system/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-common/common-auth/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-tool/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-config/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service/ceam-activiti/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-service-api/ceam-system-api/target/" />
+    <ignored path="$PROJECT_DIR$/ceam-tool/ceam-monitor/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/ActivitiApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ceam-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4509">
+              <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/util/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-auth/src/main/java/com/ceam/common/auth/aspect/PreAuthorizeAspect.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/ServiceNameConstants.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/exception/CeaMException.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/ToolUtil.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/utils/RandomUtil.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-log/src/main/java/com/ceam/common/log/aspect/OperLogAspect.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-redis/src/main/java/com/ceam/common/redis/aspect/RedisAspect.java" />
+        <option value="$PROJECT_DIR$/ceam-common/common-swagger/src/main/java/com/ceam/common/swagger/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/RouterFunctionConfiguration.java" />
+        <option value="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/config/SwaggerProvider.java" />
+        <option value="$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/handler/SwaggerHandler.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/cover/WorkflowConstants.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/ActReProcdef.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/BizNode.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/ActReProcdefMapper.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/BizAuditMapper.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/BizBusinessMapper.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/BizNodeMapper.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/BaseProcessDefinitionDiagramLayoutResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessDefinitionDiagramLayoutResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceHighlightsResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceDiagramLayoutResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/editor/main/StencilsetRestResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/editor/model/ModelEditorJsonRestResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/editor/model/ModelSaveRestResource.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IActReProcdefService.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IBizAuditService.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IBizBusinessService.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IBizNodeService.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/HiTaskVo.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/ProcessInsVo.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/mapper/SysDeptMapper.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/ISysConfigService.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/AuthApp.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/SystemApp.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/HistoryMapper.xml" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/BizAuditMapper.xml" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/ActivitiApp.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/BizBusiness.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BizBusinessController.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BizLeaveController.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizNodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/HistoryInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizBusinessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizAuditServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/ActReProcdefServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3-bin\maven-repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3-bin" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/ceam-common/ceam-common.iml" />
+        <option value="$PROJECT_DIR$/ceam-config/ceam-config.iml" />
+        <option value="$PROJECT_DIR$/ceam-eureka/ceam-eureka.iml" />
+        <option value="$PROJECT_DIR$/ceam-gateway/ceam-gateway.iml" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-service.iml" />
+        <option value="$PROJECT_DIR$/ceam-service-api/ceam-service-api.iml" />
+        <option value="$PROJECT_DIR$/ceam-tool/ceam-tool.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/ceam-common/common-auth/common-auth.iml" />
+        <option value="$PROJECT_DIR$/ceam-common/common-core/common-core.iml" />
+        <option value="$PROJECT_DIR$/ceam-common/common-log/common-log.iml" />
+        <option value="$PROJECT_DIR$/ceam-common/common-redis/common-redis.iml" />
+        <option value="$PROJECT_DIR$/ceam-common/common-swagger/common-swagger.iml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/ceam-tool/ceam-monitor/ceam-monitor.iml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="367" />
+    <option name="y" value="114" />
+    <option name="width" value="1398" />
+    <option name="height" value="883" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-service\ceam-system\src\main\resources\mapper" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-service\ceam-activiti\src\main\resources\mapper" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-service\ceam-activiti\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ceam.monitor.config" />
+      <recent name="com.ceam.common.swagger" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-gateway\src\main\java\com\ceam\gateway" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-config\src\main\resources" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-eureka\src\main\resources" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-gateway\src\main\resources" />
+      <recent name="E:\gitproject\cloud\test-cloud\ceam-service\ceam-system\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ActivitiApp">
+    <configuration name="ActivitiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ceam-activiti" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.activiti.ActivitiApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceam-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceam.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.auth.AuthApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceam-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceam.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.config.ConfigApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceam-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceam.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.eureka.EurekaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceam-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceam.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.gateway.GatewayApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceam-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceam.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceam.system.SystemApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApp" />
+        <item itemvalue="Spring Boot.AuthApp" />
+        <item itemvalue="Spring Boot.GatewayApp" />
+        <item itemvalue="Spring Boot.ConfigApp" />
+        <item itemvalue="Spring Boot.EurekaApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6174c41-cae4-4ad6-b032-5aac0437c04f" name="Default Changelist" comment="" />
+      <created>1601518183617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601518183617</updated>
+      <workItem from="1601518187481" duration="6282000" />
+      <workItem from="1601600994252" duration="7824000" />
+      <workItem from="1601687744803" duration="375000" />
+      <workItem from="1601864790970" duration="4611000" />
+      <workItem from="1601877084233" duration="4963000" />
+      <workItem from="1602292767959" duration="712000" />
+      <workItem from="1602293519804" duration="282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25049000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="367" y="114" width="1398" height="883" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683109" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2283044" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.14552736" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/util/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-tool/ceam-monitor/src/main/java/com/ceam/monitor/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/service/AccessTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/config/ActivitiConfig.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/config/MyIdGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/ActReModelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/BizLeaveMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/BizAuditMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1604">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/ActRuTaskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/HistoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/HiTaskVo.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ActTaskController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/factory/RemoteUserFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/feign/RemoteUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-common/common-core/src/main/java/com/ceam/common/constant/ServiceNameConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service-api/ceam-system-api/src/main/java/com/ceam/system/annotation/EnableCeaMFeignClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BorrowController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/ProcessNodeVo.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/ReProcdef.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/RuTask.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/BizAudit.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-eureka/src/main/java/com/ceam/eureka/EurekaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-config/src/main/java/com/ceam/config/ConfigApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/GatewayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/AuthApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-system/src/main/java/com/ceam/system/SystemApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/BizBusiness.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/consts/ActivitiConstant.java" />
+    <entry file="jar://D:/软件/apache-maven-3.6.3-bin/maven-repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar!/com/google/common/collect/Maps.class" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IBizBusinessService.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BizBusinessController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BizLeaveController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/BizNodeController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizNodeServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizPurchaseServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/HistoryInfoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizLeaveServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizBusinessServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizBorrowServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizAuditServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/ActReModelServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/ActReProcdefServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ActivitiController.java" />
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4509">
+          <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/ActivitiApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
