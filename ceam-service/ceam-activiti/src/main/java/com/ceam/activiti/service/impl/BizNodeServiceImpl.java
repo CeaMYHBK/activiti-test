@@ -1,19 +1,24 @@
 package com.ceam.activiti.service.impl;
 
+import cn.hutool.core.util.StrUtil;
 import com.ceam.activiti.consts.ActivitiConstant;
 import com.ceam.activiti.domain.BizNode;
 import com.ceam.activiti.mapper.BizNodeMapper;
 import com.ceam.activiti.service.IBizNodeService;
 import com.ceam.activiti.vo.ProcessNodeVo;
+import com.ceam.system.domain.SysDept;
+import com.ceam.system.domain.SysUser;
 import com.ceam.system.feign.RemoteDeptService;
 import com.ceam.system.feign.RemoteUserService;
 import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * @author CeaM
@@ -157,11 +162,55 @@ public class BizNodeServiceImpl implements IBizNodeService {
         return bizNodes.isEmpty() ? 0 : bizNodeMapper.insertList(bizNodes);
     }
 
+    /**
+     * 它在businessServiceImpl的setAuditor中被调用
+     * @param nodeId 流程节点编号
+     * @param userId 当前用户编号
+     * @return
+     */
     @Override
     public Set<String> getAuditors(String nodeId, long userId)
     {
         // TODO 优化查询次数可以将同类型审核人一次性查询得到
-
-        return null;
+        List<BizNode> bizNodes = selectBizNodeList(new BizNode().setNodeId(nodeId));
+        Set<Long> auditors = Sets.newHashSet();
+        Set<Long> roleIds = Sets.newHashSet();
+        Set<Long> deptIds = Sets.newHashSet();
+        if (null != bizNodes && bizNodes.size() > 0)
+        {
+            for (BizNode node : bizNodes)
+            {
+                if (node.getType().equals(ActivitiConstant.NODE_USER))
+                {
+                    // 如果是用户类型直接塞到审核人结合
+                    auditors.add(node.getAuditor());
+                }
+                else if (node.getType().equals(ActivitiConstant.NODE_ROLE))
+                {
+                    // 查询所有拥有有当前角色编号的用户
+                    roleIds.add(node.getAuditor());
+                }
+                else if (node.getType().equals(ActivitiConstant.NODE_DEPARTMENT))
+                {
+                    deptIds.add(node.getAuditor());
+                }
+                else if (node.getType().equals(ActivitiConstant.NODE_DEP_HEADER))
+                {
+                    SysUser user = remoteUserService.selectSysUserByUserId(userId);
+                    SysDept dept = remoteDeptService.selectSysDeptByDeptId(user.getDeptId());
+                    // 查询所有用有当前用户部门的负责人
+                    auditors.add(dept.getLeaderId());
+                }
+            }
+        }
+        if (roleIds.size() > 0)
+        {
+            auditors.addAll(remoteUserService.selectUserIdsHasRoles(StrUtil.join(",", roleIds.toArray())));
+        }
+        if (deptIds.size() > 0)
+        {
+            auditors.addAll(remoteUserService.selectUserIdsInDepts(StrUtil.join(",", deptIds.toArray())));
+        }
+        return auditors.stream().map(m -> m.toString()).collect(Collectors.toSet());
     }
 }
