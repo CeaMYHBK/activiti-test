@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6174c41-cae4-4ad6-b032-5aac0437c04f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ActTaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/ActRuTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/BizAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/ActRuTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/mapper/BizAuditMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/IBizAuditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizAuditServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/HiTaskVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/RuTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/ActRuTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/BizAuditMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/activiti_cloud.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/cloud.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ProcessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ceam-service/ceam-activiti/target/classes/com/ceam/activiti/controller/ProcessController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,15 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/ActRuTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -87,11 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ModelerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3643">
               <caret line="159" column="68" selection-start-line="159" selection-start-column="68" selection-end-line="159" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ProcessController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4266">
+              <caret line="191" column="57" lean-forward="true" selection-start-line="191" selection-start-column="57" selection-end-line="191" selection-end-column="57" />
+              <folding>
+                <element signature="e#5242#5250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/BaseProcessDefinitionDiagramLayoutResource.java" />
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessDefinitionDiagramLayoutResource.java" />
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceHighlightsResource.java" />
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/modeler/rest/diagram/services/ProcessInstanceDiagramLayoutResource.java" />
@@ -193,6 +185,7 @@
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/service/impl/BizAuditServiceImpl.java" />
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/vo/RuTask.java" />
         <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ActTaskController.java" />
+        <option value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ProcessController.java" />
       </list>
     </option>
   </component>
@@ -206,9 +199,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
+    <option name="x" value="158" />
+    <option name="y" value="141" />
     <option name="width" value="1715" />
-    <option name="height" value="1028" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,103 +251,7 @@
               <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-test" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ceam-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +268,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -386,11 +284,11 @@
       <recent name="com.ceam.common.swagger" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Download\gitproject\activiti-test\db" />
       <recent name="D:\Download\gitproject\activiti-test\ceam-service\ceam-activiti\src\main\resources\mapper\activiti" />
       <recent name="D:\Download\gitproject\activiti-test\ceam-service\ceam-activiti\src\main\resources" />
       <recent name="E:\gitproject\cloud\test-cloud\ceam-gateway\src\main\java\com\ceam\gateway" />
       <recent name="E:\gitproject\cloud\test-cloud\ceam-config\src\main\resources" />
-      <recent name="E:\gitproject\cloud\test-cloud\ceam-eureka\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,17 +405,18 @@
       <workItem from="1602293519804" duration="18328000" />
       <workItem from="1602378412112" duration="7452000" />
       <workItem from="1602413816601" duration="1043000" />
-      <workItem from="1602465515567" duration="9444000" />
+      <workItem from="1602465515567" duration="11966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61034000" />
+    <option name="totallyTimeSpent" value="63556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="0" width="1715" height="1028" extended-state="0" />
+    <frame x="158" y="141" width="1715" height="853" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23746224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23746224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -527,7 +426,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2751678" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.364395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,20 +455,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ceam-config/src/main/java/com/ceam/config/ConfigApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ceam-gateway/src/main/java/com/ceam/gateway/GatewayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ceam-service/ceam-auth/src/main/java/com/ceam/auth/AuthApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -813,23 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/ActRuTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/mapper/activiti/ActRuTaskMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -918,6 +786,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3643">
           <caret line="159" column="68" selection-start-line="159" selection-start-column="68" selection-end-line="159" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/activiti_cloud.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/domain/ActRuTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceam-service/ceam-activiti/src/main/java/com/ceam/activiti/controller/ProcessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4266">
+          <caret line="191" column="57" lean-forward="true" selection-start-line="191" selection-start-column="57" selection-end-line="191" selection-end-column="57" />
+          <folding>
+            <element signature="e#5242#5250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
