@@ -16,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/ceam-service-api/ceam-system-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ceam-service/ceam-activiti" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ceam-service/ceam-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ceam-service/ceam-business" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ceam-service/ceam-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ceam-tool" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ceam-tool/ceam-monitor" charset="UTF-8" />
