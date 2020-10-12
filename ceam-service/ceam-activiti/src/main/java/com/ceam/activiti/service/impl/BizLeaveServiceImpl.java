@@ -5,6 +5,7 @@ import com.ceam.activiti.mapper.BizLeaveMapper;
 import com.ceam.activiti.service.IBizLeaveService;
 import com.ceam.common.core.text.Convert;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * @Description 请假业务实现层
  * @date 2020/10/12 14:43
  */
+@Service
 public class BizLeaveServiceImpl implements IBizLeaveService {
 
     @Autowired
