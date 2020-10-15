@@ -140,6 +140,11 @@ public class ActTaskController extends BaseController {
     {
         startPage();
         System.out.println("task auditHistory lalalala");
+        //hiTaskVo===HiTaskVo(id=null, procDefId=null, procInstId=35001, taskName=null, taskDefKey=null, auditorId=null, startTime=null, endTime=null, result=null, comment=null, routerName=null, duration=null, businessKey=null, procName=null, title=null, procDefKey=null, startUserId=null, applyer=null, delFlag=null, auditId=null, auditor=null, deleteReason=null)
+        System.out.println("hiTaskVo===" + hiTaskVo);
+        //审核历史===[HiTaskVo(id=37504, procDefId=leave:2:12504, procInstId=35001, taskName=人事审批, taskDefKey=sid-E4DB0127-D80D-4F64-877D-1BC0C0A4A7CD, auditorId=null, startTime=Wed Oct 14 15:09:03 CST 2020, endTime=null, result=null, comment=null, routerName=null, duration=null, businessKey=2, procName=null, title=No money no talk!, procDefKey=null, startUserId=1, applyer=null, delFlag=null, auditId=null, auditor=null, deleteReason=null),
+        // HiTaskVo(id=35006, procDefId=leave:2:12504, procInstId=35001, taskName=经理审批, taskDefKey=sid-9303BF19-09A3-4A06-922E-AD606B184621, auditorId=2, startTime=Wed Oct 14 15:01:24 CST 2020, endTime=Wed Oct 14 15:09:03 CST 2020, result=2, comment=ok1, routerName=null, duration=459565, businessKey=2, procName=简单请假, title=No money no talk!, procDefKey=leave, startUserId=1, applyer=超级管理员, delFlag=false, auditId=3, auditor=海啦-ceam, deleteReason=completed)]
+        System.out.println("审核历史===" + bizAuditService.getHistoryTaskList(hiTaskVo));
         return result(bizAuditService.getHistoryTaskList(hiTaskVo));
     }
 

@@ -15,10 +15,10 @@
         <module name="ceam-business" />
         <module name="ceam-gateway" />
         <module name="common-core" />
-        <module name="ceam-monitor" />
+        <module name="ceam-system-api" />
         <module name="ceam-system" />
         <module name="ceam-activiti" />
-        <module name="ceam-system-api" />
+        <module name="ceam-monitor" />
         <module name="ceam-config" />
       </profile>
     </annotationProcessing>
